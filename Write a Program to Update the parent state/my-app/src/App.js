@@ -5,7 +5,7 @@ const App = () => {
    const [name, setName] = useState('Rahul');
    return (
       <div>
-      {name} has email id of rahul@tutorialspoint.com
+      {name} has email id of rahul@gmail.com
       <div>
          <Child name={name} change={setName} />
       </div>
